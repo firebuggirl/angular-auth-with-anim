@@ -422,7 +422,7 @@ const AUTH_CONFIG = {
     clientID: 'nAG2jFnP2fqoF6lWtNxIVSYu2tEGC4vW',
     domain: 'juliettet.auth0.com',
     //callbackURL: 'http://localhost:7777'
-    callbackURL: 'https://auth-example-with-anim.herokuapp.com'
+    callbackURL: 'https://angular-auth-with-anim.herokuapp.com'
 };
 
 

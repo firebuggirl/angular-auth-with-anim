@@ -127,11 +127,7 @@ MIT
 MIT
 MIT
 
-<<<<<<< HEAD
 @ng-bootstrap/ng-bootstrap@2.2.2
-=======
-@ng-bootstrap/ng-bootstrap@2.0.0
->>>>>>> d0545d6f62ce84d8b3656416c42376f5b8f4db01
 MIT
 The MIT License (MIT)
 
