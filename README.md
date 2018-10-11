@@ -84,7 +84,7 @@ http://easings.net/nb
 
 * From existing repo:
 
-` heroku git:remote -a auth-with-animations `
+` heroku git:remote -a angular-auth-with-anim `
 
 `  heroku config:add NODE_ENV=production `
 
@@ -96,8 +96,13 @@ http://easings.net/nb
 
 ` git push heroku master `
 
-https://auth-example-with-anim.herokuapp.com/
+https://angular-auth-with-anim.herokuapp.com/
 
+## Troubleshooting:
+
+  ` heroku logs --tail `
+
+  
 # Note: Don't forget to add env variables via Heroku GUI
 
 ## Add mLab/MongoDb as add on:
