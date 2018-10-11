@@ -80,7 +80,7 @@ http://easings.net/nb
 
 ## Heroku
 ` ng build `
-` heroku create auth-example-with-anim `
+` heroku create angular-auth-with-anim `
 
 * From existing repo:
 
