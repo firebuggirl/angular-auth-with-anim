@@ -19,13 +19,12 @@ const ObjectID = mongodb.ObjectID;
 
 //mongoose.connect(process.env.LOCAL_DB || process.env.DATABASE);
 //mongoose.connect(process.env.LOCAL_DB);
-<<<<<<< HEAD
+
 mongoose.connect(process.env.MONGODB_URI);//mLab connection string
 //mongoose.connect(process.env.DOCKER_DB);//for Docker development change `localhost`` to `mongodb` in connection string...needs to match name of image container!!!
-=======
 //mongoose.connect(process.env.MONGODB_URI);//mLab connection string
-mongoose.connect(process.env.DOCKER_DB);//for Docker development change `localhost`` to `mongodb` in connection string...needs to match name of image container!!!
->>>>>>> d0545d6f62ce84d8b3656416c42376f5b8f4db01
+//mongoose.connect(process.env.DOCKER_DB);//for Docker development change `localhost`` to `mongodb` in connection string...needs to match name of image container!!!
+
 mongoose.set('debug', true);
 mongoose.Promise = global.Promise; // Tell Mongoose to use ES6 promises
 mongoose.connection.on('error', (err) => {
