@@ -102,7 +102,7 @@ https://angular-auth-with-anim.herokuapp.com/
 
   ` heroku logs --tail `
 
-  
+
 # Note: Don't forget to add env variables via Heroku GUI
 
 ## Add mLab/MongoDb as add on:
@@ -127,7 +127,7 @@ https://angular-auth-with-anim.herokuapp.com/
 
     - set `callbackURL: 'http://localhost:7777'` //ie., to run locally via `npm run serve`..after running `npm run build`
 
-    - set back to `callbackURL:'https://auth-example-with-anim.herokuapp.com'` before running/re-deploying back to Heroku
+    - set back to `callbackURL:'https://angular-auth-with-anim.herokuapp.com'` before running/re-deploying back to Heroku
 
 ## SNYK test for vulnerabilities:
 
@@ -214,3 +214,28 @@ https://angular-auth-with-anim.herokuapp.com/
     ` docker tag angularnodeapp <your_dockerhub_name>/angularnodeapp `
 
     ` docker push <your_dockerhub_name>/angularnodeapp `
+
+
+## Load Sample Data
+
+
+    ` npm run sample `
+
+
+## Delete Sample Data
+
+    ` npm run blowitallaway `
+
+
+## Check for vulnerabilities
+
+
+    ` snyk test `
+
+
+      - OR
+
+
+    ` npm audit `
+
+    ` npm audit fix `
