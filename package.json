@@ -16,7 +16,8 @@
     "snyk-protect": "snyk protect",
     "prepublish": "npm run snyk-protect",
     "sample": "node ./data/load-sample-data.js",
-    "blowitallaway": "node ./data/load-sample-data.js --delete"
+    "blowitallaway": "node ./data/load-sample-data.js --delete",
+    "heroku-postbuild": "echo Skip builds on Heroku"
   },
   "private": true,
   "dependencies": {
